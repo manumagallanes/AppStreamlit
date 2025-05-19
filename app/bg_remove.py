@@ -111,7 +111,7 @@ def fix_image(upload):
         status_text.text(f"Completed in {processing_time:.2f} seconds")
         
     except Exception as e:
-        st.error(f"An error occurred: {str(e)}")
+        st.error(f"An error occurredd: {str(e)}")
         st.sidebar.error("Failed to process image")
         # Log the full error for debugging
         print(f"Error in fix_image: {traceback.format_exc()}")
