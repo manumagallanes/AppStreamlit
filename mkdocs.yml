@@ -1,0 +1,12 @@
+site_name: AppStreamlit - Remove Background
+
+nav:
+  - Home: index.md
+  - Uso: uso.md
+  - Código: codigo.md
+
+theme:
+  name: material
+  language: es
+
+
